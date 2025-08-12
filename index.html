@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Verbs</title>
+    <style>
+        * {
+            transition: 0.25s all;
+            font-family: Afacad Flux;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .dropdown {
+            --scale: 1;
+            background-color: lightgray;
+            width: 70%;
+            height: calc(32px * var(--scale));
+            padding: calc(15px * var(--scale));
+            margin-top: calc(5px * var(--scale));
+        }
+
+        .dropdown .content {
+            margin-top: calc(15px * var(--scale));
+            /* margin-left: -15px; */
+        }
+
+        .dropdown h2 {
+            font-size: calc(24px * var(--scale));
+            color: rgb(78, 78, 78);
+        }
+
+        .dropdown h2 {
+            margin: 0;
+            cursor: pointer;
+        }
+
+        .b {
+            display: block;
+        }
+
+        table {
+            background-color: black;
+        }
+
+        td,
+        th {
+            background-color: white;
+            width: 75px;
+            height: 30px;
+            padding: 10px;
+        }
+
+        .quiz-container {
+            /* text-align: center; */
+            width: calc(75% - 60px);
+            height: calc(75% - 60px);
+            background-color: lightblue;
+            margin: 12.5vh 12.5vw;
+            padding: 30px;
+        }
+
+        /* .quiz-container #question {
+            margin-top: 30px;
+        } */
+
+        .quiz-container .answer {
+            font-size: 30px;
+            border: none;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 10px;
+            position: relative;
+            top: 45%;
+        }
+
+        .answer:not(#answer-text) {
+            font-size: 25px;
+        }
+
+        #answer-submit {
+            margin-top: 5px;
+        }
+
+        .quiz-container #answer-text::placeholder {
+            color: rgb(176, 176, 176);
+        }
+
+        div#rules {
+            text-align: left;
+            position: absolute;
+            bottom: 12.5vh;
+            right: 12.5vw;
+            height: 74.8vh;
+            width: 300px;
+            background: white;
+            border: solid black 0.1px;
+            border-left: none;
+        }
+
+        h3#status {
+            position: absolute;
+            transform: translateY(12vh);
+        }
+
+        h3#guesses {
+            position: absolute;
+            transform: translate(33vw, 15vh);
+        }
+
+        h3#streak {
+            position: absolute;
+            transform: translate(33vw, 11vh);
+        }
+
+        .answer {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dropdown-container"></div>
+    <div class="quiz-container" style="display: none;">
+        <h1 id="question">[placeholder]</h1>
+        <input type="text" placeholder="Enter your answer" id="answer-text" class="answer" autocomplete="off"
+            spellcheck="false">
+
+
+
+        <select id="answer-tense" class="answer">
+            <option value="present">Present</option>
+            <option value="future">Future</option>
+            <option value="past.preterite">Past Preterite</option>
+            <option value="past.imperfect">Past Imperfect</option>
+            <option value="imperative">Imperative</option>
+            <option value="subjunctive">Subjunctive</option>
+        </select>
+        <select id="answer-person" class="answer">
+            <option value="1s">Yo</option>
+            <option value="2s">Tú</option>
+            <option value="3s">Él/Ella</option>
+            <option value="1p">Nosotros</option>
+            <option value="2p">Vosotros</option>
+            <option value="3p">Ellos/Ellas</option>
+        </select>
+
+        <button id="answer-submit" class="answer" style="cursor: pointer;">Submit</button>
+
+
+
+
+        <h3 id="status"></h3>
+        <h3 id="streak">0 streak</h3>
+        <h3 id="guesses">0 guesses</h3>
+        <div id="rules">
+            <ul>
+                <li>Subjunctive reversed</li>
+                <li>Subjunctive based on 1s</li>
+                <li>Future: infinitive + ending </li>
+                <li>Future accent usually last syllable</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+<script src="quiz.js"></script>
+
+<script src="dropdown.js"></script>
+
+<script src="conjugation.js"></script>
+
+</html>

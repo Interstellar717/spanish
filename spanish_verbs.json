@@ -1,0 +1,314 @@
+{
+    "verbs": [
+        {
+            "infinitive": "ser",
+            "english": "be",
+            "present": {
+                "1s": "soy",
+                "2s": "eres",
+                "3s": "es",
+                "1p": "somos",
+                "2p": "sois",
+                "3p": "son"
+            },
+            "future": {},
+            "past": {
+                "preterite": {
+                    "1s": "fui",
+                    "2s": "fuiste",
+                    "3s": "fue",
+                    "1p": "fuimos",
+                    "2p": "fuisteis",
+                    "3p": "fueron"
+                },
+                "imperfect": {
+                    "1s": "era",
+                    "2s": "eras",
+                    "3s": "era",
+                    "1p": "éramos",
+                    "2p": "erais",
+                    "3p": "eran"
+                }
+            },
+            "subjunctive": {
+                "1s": "sea",
+                "2s": "seas",
+                "3s": "sea",
+                "1p": "seamos",
+                "2p": "seáis",
+                "3p": "sean"
+            }
+        },
+        {
+            "infinitive": "estar",
+            "english": "be (temporary)",
+            "present": {
+                "1s": "estoy",
+                "2s": "estás",
+                "3s": "está",
+                "1p": "estamos",
+                "2p": "estáis",
+                "3p": "están"
+            },
+            "future": {},
+            "past": {
+                "preterite": {
+                    "1s": "estuve",
+                    "2s": "estuviste",
+                    "3s": "estuvo",
+                    "1p": "estuvimos",
+                    "2p": "estuvisteis",
+                    "3p": "estuvieron"
+                },
+                "imperfect": {}
+            },
+            "imperative": {
+                "2s": "está",
+                "3s": "esté",
+                "1p": "estemos",
+                "2p": "estad",
+                "3p": "estén"
+            },
+            "subjunctive": {
+                "1s": "esté",
+                "2s": "estés",
+                "3s": "esté",
+                "1p": "estemos",
+                "2p": "estéis",
+                "3p": "estén"
+            }
+        },
+        {
+            "infinitive": "hacer",
+            "english": "do",
+            "present": {
+                "1s": "hago"
+            },
+            "future": {
+                "base": "har"
+            },
+            "past": {
+                "preterite": {
+                    "base": "hic",
+                    "1s": "hice",
+                    "3s": "hizo"
+                }
+            },
+            "imperative": {
+                "2s": "haz"
+            }
+        },
+        {
+            "infinitive": "ir",
+            "english": "go",
+            "present": {
+                "1s": "voy",
+                "2s": "vas",
+                "3s": "va",
+                "1p": "vamos",
+                "2p": "vais",
+                "3p": "van"
+            },
+            "future": {},
+            "past": {
+                "preterite": {
+                    "1s": "fui",
+                    "2s": "fuiste",
+                    "3s": "fue",
+                    "1p": "fuimos",
+                    "2p": "fuisteis",
+                    "3p": "fueron"
+                },
+                "imperfect": {
+                    "1s": "iba",
+                    "2s": "ibas",
+                    "3s": "iba",
+                    "1p": "íbamos",
+                    "2p": "ibais",
+                    "3p": "iban"
+                }
+            },
+            "imperative": {
+                "2s": "ve",
+                "3s": "vaya",
+                "1p": "vayamos",
+                "2p": "id",
+                "3p": "vayan"
+            },
+            "subjunctive": {
+                "1s": "vaya",
+                "2s": "vayas",
+                "3s": "vaya",
+                "1p": "vayamos",
+                "2p": "vayáis",
+                "3p": "vayan"
+            }
+        },
+        {
+            "infinitive": "ver",
+            "english": "see",
+            "present": {
+                "1s": "veo",
+                "2p": "veis"
+            },
+            "future": {},
+            "past": {
+                "preterite": {
+                    "1s": "vi",
+                    "3s": "vio"
+                },
+                "imperfect": {
+                    "base": "ve"
+                }
+            },
+            "imperative": {},
+            "subjunctive": {}
+        },
+        {
+            "infinitive": "tener",
+            "english": "have",
+            "present": {
+                "base": "tien",
+                "1s": "tengo",
+                "1p": "tenemos"
+            },
+            "future": {
+                "base": "tendr"
+            },
+            "past": {
+                "preterite": {
+                    "base": "tuv",
+                    "1s": "tuve",
+                    "3s": "tuvo"
+                }
+            },
+            "imperative": {
+                "2s": "ten"
+            }
+        },
+        {
+            "infinitive": "leer",
+            "english": "read",
+            "past": {
+                "preterite": {
+                    "3s": "leyó",
+                    "3p": "leyeron"
+                }
+            }
+        },
+        {
+            "infinitive": "creer",
+            "english": "think / believe",
+            "past": {
+                "preterite": {
+                    "3s": "creyó",
+                    "3p": "creyeron"
+                }
+            }
+        },
+        {
+            "infinitive": "tocar",
+            "english": "touch",
+            "past": {
+                "preterite": {
+                    "1s": "toqué"
+                }
+            }
+        },
+        {
+            "infinitive": "poder",
+            "english": "be able to",
+            "present": {
+                "base": "pued",
+                "1p": "podemos",
+                "2p": "podéis"
+            }
+        },
+        {
+            "infinitive": "querer",
+            "english": "want",
+            "present": {
+                "base": "quier",
+                "1p": "queremos"
+            },
+            "future": {
+                "base": "querr"
+            },
+            "past": {
+                "preterite": {
+                    "1s": "quise",
+                    "2s": "quisiste",
+                    "3s": "quiso",
+                    "1p": "quisimos",
+                    "2p": "quisisteis",
+                    "3p": "quisieron"
+                },
+                "imperfect": {}
+            }
+        },
+        {
+            "infinitive": "correr",
+            "english": "run"
+        },
+        {
+            "infinitive": "caminar",
+            "english": "walk"
+        },
+        {
+            "infinitive": "hablar",
+            "english": "speak"
+        },
+        {
+            "infinitive": "preguntar",
+            "english": "ask"
+        },
+        {
+            "infinitive": "mirar",
+            "english": "look"
+        },
+        {
+            "infinitive": "observar",
+            "english": "watch"
+        },
+        {
+            "infinitive": "saborear",
+            "english": "taste"
+        },
+        {
+            "infinitive": "aprender",
+            "english": "learn"
+        },
+        {
+            "infinitive": "comer",
+            "english": "eat"
+        },
+        {
+            "infinitive": "beber",
+            "english": "drink"
+        },
+        {
+            "infinitive": "necesitar",
+            "english": "need"
+        },
+        {
+            "infinitive": "deber",
+            "english": "have to"
+        },
+        {
+            "infinitive": "escribir",
+            "english": "write"
+        },
+        {
+            "infinitive": "dibujar",
+            "english": "draw"
+        },
+        {
+            "infinitive": "pintar",
+            "english": "paint"
+        },
+        {
+            "infinitive": "dudar",
+            "english": "doubt"
+        }
+    ]
+}
