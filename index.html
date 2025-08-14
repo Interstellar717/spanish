@@ -22,7 +22,7 @@
         .dropdown {
             --scale: 1;
             background-color: lightgray;
-            width: 70%;
+            width: 90%;
             height: calc(32px * var(--scale));
             padding: calc(15px * var(--scale));
             margin-top: calc(5px * var(--scale));
@@ -54,7 +54,7 @@
         td,
         th {
             background-color: white;
-            width: 75px;
+            width: fit-content;
             height: 30px;
             padding: 10px;
         }
@@ -78,7 +78,7 @@
             background-color: rgba(255, 255, 255, 0.5);
             padding: 10px;
             position: relative;
-            top: 45%;
+            top: calc(12.5% + 12%);
         }
 
         .answer:not(#answer-text) {
@@ -93,13 +93,13 @@
             color: rgb(176, 176, 176);
         }
 
-        div#rules {
+        div#notes {
             text-align: left;
             position: absolute;
             bottom: 12.5vh;
             right: 12.5vw;
             height: 74.8vh;
-            width: 300px;
+            width: 350px;
             background: white;
             border: solid black 0.1px;
             border-left: none;
@@ -107,17 +107,17 @@
 
         h3#status {
             position: absolute;
-            transform: translateY(12vh);
+            transform: translateY(-1vh);
         }
 
         h3#guesses {
             position: absolute;
-            transform: translate(33vw, 15vh);
+            transform: translate(33vw, 9vh);
         }
 
         h3#streak {
             position: absolute;
-            transform: translate(33vw, 11vh);
+            transform: translate(33vw, 5vh);
         }
 
         .answer {
@@ -140,8 +140,14 @@
             <option value="future">Future</option>
             <option value="past.preterite">Past Preterite</option>
             <option value="past.imperfect">Past Imperfect</option>
-            <option value="imperative">Imperative</option>
-            <option value="subjunctive">Subjunctive</option>
+            <option value="perfect.present">Present Perfect</option>
+            <option value="perfect.future">Future Perfect</option>
+            <option value="perfect.past">Past Perfect</option>
+            <option value="perfect.conditional">Conditional Perfect</option>
+            <option value="subjunctive.present">Subjunctive Present</option>
+            <option value="subjunctive.past">Subjunctive Past</option>
+            <option value="imperative">Positive Imperative</option>
+            <option value="imperative_negative">Negative Imperative</option>
         </select>
         <select id="answer-person" class="answer">
             <option value="1s">Yo</option>
@@ -160,12 +166,13 @@
         <h3 id="status"></h3>
         <h3 id="streak">0 streak</h3>
         <h3 id="guesses">0 guesses</h3>
-        <div id="rules">
+        <div id="notes">
             <ul>
-                <li>Subjunctive reversed</li>
-                <li>Subjunctive based on 1s</li>
+                <!-- <li>Subjunctive reversed</li>
+                <li>Subjunctive stem on 1s</li>
                 <li>Future: infinitive + ending </li>
-                <li>Future accent usually last syllable</li>
+                <li>Future accent usually last syllable</li> -->
+                <li><b>NOTES</b></li>
             </ul>
         </div>
     </div>

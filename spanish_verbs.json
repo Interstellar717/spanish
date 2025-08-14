@@ -30,13 +30,18 @@
                     "3p": "eran"
                 }
             },
+            "imperative": {
+                "2s": "sé"
+            },
             "subjunctive": {
-                "1s": "sea",
-                "2s": "seas",
-                "3s": "sea",
-                "1p": "seamos",
-                "2p": "seáis",
-                "3p": "sean"
+                "present": {
+                    "1s": "sea",
+                    "2s": "seas",
+                    "3s": "sea",
+                    "1p": "seamos",
+                    "2p": "seáis",
+                    "3p": "sean"
+                }
             }
         },
         {
@@ -70,36 +75,47 @@
                 "3p": "estén"
             },
             "subjunctive": {
-                "1s": "esté",
-                "2s": "estés",
-                "3s": "esté",
-                "1p": "estemos",
-                "2p": "estéis",
-                "3p": "estén"
+                "present": {
+                    "1s": "esté",
+                    "2s": "estés",
+                    "3s": "esté",
+                    "1p": "estemos",
+                    "2p": "estéis",
+                    "3p": "estén"
+                }
             }
         },
         {
             "infinitive": "hacer",
             "english": "do",
+            "participle": {
+                "past": "hecho"
+            },
             "present": {
                 "1s": "hago"
             },
             "future": {
-                "base": "har"
+                "stem": "har"
             },
             "past": {
                 "preterite": {
-                    "base": "hic",
+                    "stem": "hic",
                     "1s": "hice",
                     "3s": "hizo"
                 }
             },
             "imperative": {
                 "2s": "haz"
+            },
+            "conditional": {
+                "stem": "har"
             }
         },
         {
             "infinitive": "ir",
+            "participle": {
+                "present": "yendo"
+            },
             "english": "go",
             "present": {
                 "1s": "voy",
@@ -136,17 +152,23 @@
                 "3p": "vayan"
             },
             "subjunctive": {
-                "1s": "vaya",
-                "2s": "vayas",
-                "3s": "vaya",
-                "1p": "vayamos",
-                "2p": "vayáis",
-                "3p": "vayan"
+                "present": {
+                    "1s": "vaya",
+                    "2s": "vayas",
+                    "3s": "vaya",
+                    "1p": "vayamos",
+                    "2p": "vayáis",
+                    "3p": "vayan"
+                }
             }
         },
         {
             "infinitive": "ver",
             "english": "see",
+            "participle": {
+                "past": "visto",
+                "present": "viendo"
+            },
             "present": {
                 "1s": "veo",
                 "2p": "veis"
@@ -158,37 +180,80 @@
                     "3s": "vio"
                 },
                 "imperfect": {
-                    "base": "ve"
+                    "stem": "ve"
                 }
             },
-            "imperative": {},
-            "subjunctive": {}
+            "imperative": {}
         },
         {
             "infinitive": "tener",
             "english": "have",
             "present": {
-                "base": "tien",
+                "stem": "tien",
                 "1s": "tengo",
-                "1p": "tenemos"
+                "1p": "tenemos",
+                "2p": "tenéis"
             },
             "future": {
-                "base": "tendr"
+                "stem": "tendr"
             },
             "past": {
                 "preterite": {
-                    "base": "tuv",
+                    "stem": "tuv",
                     "1s": "tuve",
                     "3s": "tuvo"
                 }
             },
             "imperative": {
                 "2s": "ten"
+            },
+            "conditional": {
+                "stem": "tendr"
+            }
+        },
+        {
+            "infinitive": "decir",
+            "english": "say",
+            "participle": {
+                "past": "dicho",
+                "present": "diciendo"
+            },
+            "present": {
+                "stem": "dic",
+                "1s": "digo",
+                "1p": "decimos",
+                "2p": "decís"
+            },
+            "future": {
+                "stem": "dir"
+            },
+            "past": {
+                "preterite": {
+                    "stem": "dij",
+                    "1s": "dije",
+                    "3s": "dijo",
+                    "3p": "dijeron"
+                },
+                "imperfect": {}
+            },
+            "imperative": {
+                "2s": "di"
+            },
+            "conditional": {
+                "stem": "dir"
+            },
+            "subjunctive": {
+                "past": {
+                    "stem": "dije"
+                }
             }
         },
         {
             "infinitive": "leer",
             "english": "read",
+            "participle": {
+                "present": "leyendo"
+            },
             "past": {
                 "preterite": {
                     "3s": "leyó",
@@ -197,8 +262,64 @@
             }
         },
         {
+            "infinitive": "saber",
+            "english": "know",
+            "present": {
+                "1s": "sé"
+            },
+            "future": {
+                "stem": "sabr"
+            },
+            "conditional": {
+                "stem": "sabr"
+            },
+            "past": {
+                "preterite": {
+                    "stem": "sup",
+                    "1s": "supe",
+                    "3s": "supo"
+                },
+                "imperfect": {}
+            },
+            "subjunctive": {
+                "present": {
+                    "stem": "sep"
+                }
+            }
+        },
+        {
+            "infinitive": "venir",
+            "english": "come",
+            "present": {
+                "stem": "vien",
+                "1s": "vengo",
+                "1p": "venimos",
+                "2p": "venís"
+            },
+            "future": {
+                "stem": "vendr"
+            },
+            "conditional": {
+                "stem": "vendr"
+            },
+            "past": {
+                "preterite": {
+                    "stem": "vin",
+                    "1s": "vine",
+                    "3s": "vino"
+                },
+                "imperfect": {}
+            },
+            "imperative": {
+                "2s": "ven"
+            }
+        },
+        {
             "infinitive": "creer",
             "english": "think / believe",
+            "participle": {
+                "present": "creyendo"
+            },
             "past": {
                 "preterite": {
                     "3s": "creyó",
@@ -213,26 +334,40 @@
                 "preterite": {
                     "1s": "toqué"
                 }
+            },
+            "subjunctive": {
+                "present": {
+                    "stem": "toqu"
+                }
             }
         },
         {
             "infinitive": "poder",
             "english": "be able to",
+            "participle": {
+                "present": "pudiendo"
+            },
             "present": {
-                "base": "pued",
+                "stem": "pued",
                 "1p": "podemos",
                 "2p": "podéis"
+            },
+            "future":{
+                "stem": "podr"
+            },
+            "conditional": {
+                "stem": "podr"
             }
         },
         {
             "infinitive": "querer",
             "english": "want",
             "present": {
-                "base": "quier",
+                "stem": "quier",
                 "1p": "queremos"
             },
             "future": {
-                "base": "querr"
+                "stem": "querr"
             },
             "past": {
                 "preterite": {
@@ -244,6 +379,9 @@
                     "3p": "quisieron"
                 },
                 "imperfect": {}
+            },
+            "conditional": {
+                "stem": "querr"
             }
         },
         {
@@ -296,7 +434,10 @@
         },
         {
             "infinitive": "escribir",
-            "english": "write"
+            "english": "write",
+            "participle": {
+                "past": "escrito"
+            }
         },
         {
             "infinitive": "dibujar",
@@ -309,6 +450,25 @@
         {
             "infinitive": "dudar",
             "english": "doubt"
+        },
+        {
+            "infinitive": "dormir",
+            "english": "sleep",
+            "participle": {
+                "present": "durmiendo"
+            },
+            "present": {
+                "stem": "duer",
+                "1p": "dormimos",
+                "2p": "dormís"
+            },
+            "future": {},
+            "past": {
+                "preterite": {
+                    "3s": "durmió",
+                    "3p": "durmieron"
+                }
+            }
         }
     ]
 }
